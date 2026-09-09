@@ -1,0 +1,10 @@
+runConfig:
+  runtime: nodejs20
+  concurrency: 80
+  cpu: 1
+  memoryMiB: 512
+  minInstances: 0
+  maxInstances: 10
+
+# No env vars required for the base (mock-only) game.
+# BYOK live mode takes the key from the request, not from env config.
